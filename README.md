@@ -5,6 +5,7 @@ This code implements a convolutional neural network (CNN) using PyTorch to class
 Performance metrics-
 
 GPU Training Performance:
+
 Training Time: 52.58 seconds
 
 Inference Accuracy: 85.37%
@@ -15,6 +16,7 @@ Frames Per Second (FPS): 4967.58
 
 
 CPU (OpenVINO) Inference Performance:
+
 Inference Time: 5.88 seconds
 
 Inference Accuracy: 85.37%
