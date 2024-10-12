@@ -1,6 +1,6 @@
 # OCR-GPU-to-CPU-Evaluation
 
-This code implements a convolutional neural network (CNN) using PyTorch to classify handwritten characters from the EMNIST dataset. It begins by unzipping the dataset and defining a SimpleCNN model with two convolutional layers, dropout for regularization, and fully connected layers. The model is trained on a GPU for two epochs, and its performance is evaluated on both GPU and CPU using OpenVINO for inference optimization. The code also measures training time, accuracy, and frames per second (FPS) for both GPU and CPU inference, providing insights into the model's efficiency and effectiveness.
+This code implements a convolutional neural network (CNN) using PyTorch to classify handwritten characters from the EMNIST dataset. It begins by unzipping the dataset and defining a SimpleCNN model with two convolutional layers, dropout for regularization, and fully connected layers. The model is trained on a GPU for two epochs, and its performance is evaluated on both GPU and CPU using Intel's OpenVINO toolkit for inference optimization. The code also measures training time, accuracy, and frames per second (FPS) for both GPU and CPU inference, providing insights into the model's efficiency and effectiveness.
 
 Performance metrics-
 
